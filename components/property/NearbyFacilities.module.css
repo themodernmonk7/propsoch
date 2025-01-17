@@ -1,0 +1,20 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.item {
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.25;
+  color: #252b5c;
+  background-color: #f5f4f8;
+  border-radius: 9999px;
+  padding: 0.75rem;
+  user-select: none;
+  font-weight: 600;
+}

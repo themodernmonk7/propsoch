@@ -1,0 +1,31 @@
+.bottomBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 16px 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.linkList {
+  list-style-type: none;
+}
+
+.linkItem {
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  line-height: 22px;
+}
+
+.activeLink {
+  color: #e57601;
+  font-weight: bold;
+}
+
+.inactiveLink {
+  color: #757575;
+}

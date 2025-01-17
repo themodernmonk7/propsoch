@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.75rem;
+}
+
+.titleContainer {
+  width: 70%;
+  margin-bottom: 0.25rem;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #252b5c;
+}
+
+.locationContainer {
+  display: flex;
+  align-items: center;
+}
+
+.locationText {
+  font-size: 0.875rem;
+  line-height: 1.25;
+  color: #888888;
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.price {
+  color: #252b5c;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.emiText {
+  font-size: 0.875rem;
+  line-height: 1.25;
+  color: #888888;
+}

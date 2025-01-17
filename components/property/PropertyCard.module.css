@@ -1,0 +1,116 @@
+.container {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.labelContainer {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.label {
+  font-size: 10px;
+  line-height: 22px;
+  color: #444444;
+  background-color: white;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 9999px;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.dotContainer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+}
+
+.dotActive {
+  background-color: white;
+}
+
+.dotInactive {
+  opacity: 0.5;
+  background-color: white;
+}
+
+.detailsContainer {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.infoRow {
+  font-size: small;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8;
+  padding-bottom: 8;
+}
+
+.viewsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.viewsText {
+  color: #888888;
+  margin-left: 0.25rem;
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+}
+.starIcon {
+  margin-right: 0.25rem;
+}
+
+.ratingHigh {
+  color: #278717;
+}
+
+.ratingMedium {
+  color: #e57601;
+}
+
+.ratingLow {
+  color: #f32b2b;
+}
+
+.title {
+  font-weight: semibold;
+  font-size: small;
+  line-height: normal;
+}

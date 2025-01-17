@@ -1,0 +1,39 @@
+/* PropertyAmenities.module.css */
+
+.container {
+  margin-bottom: 1rem;
+}
+
+.title {
+  color: #252b5c;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.25;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.item {
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.25;
+  color: #252b5c;
+  background-color: #f5f4f8;
+  border-radius: 9999px;
+  padding: 0.75rem;
+  user-select: none;
+}
+
+.item:first-child {
+  background-color: #234f68;
+  font-weight: bold;
+  color: white;
+}
