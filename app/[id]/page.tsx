@@ -7,7 +7,7 @@ import {
   PropertyHeader,
   PropertyImage,
   PropertyLocation,
-} from "@/components/Property"
+} from "../../components/Property"
 import { notFound } from "next/navigation"
 
 type Props = {
