@@ -1,14 +1,14 @@
 import type { Metadata, ResolvingMetadata } from "next"
 import path from "path"
 import fs from "fs"
+import { notFound } from "next/navigation"
 import {
   NearbyFacilities,
   PropertyAmenities,
   PropertyHeader,
   PropertyImage,
   PropertyLocation,
-} from "../../components/Property"
-import { notFound } from "next/navigation"
+} from "@/components/Property"
 
 type Props = {
   params: Promise<{ id: string }>
