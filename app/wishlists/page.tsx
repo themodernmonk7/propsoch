@@ -1,10 +1,10 @@
 "use client"
 
-import PropertyCard from "@/components/Property/PropertyCard/PropertyCard"
 import { PropertyTypes } from "@/types"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import styles from "./page.module.css"
+import { PropertyCard } from "@/components/Property"
 
 export default function Wishlists() {
   const [properties, setProperties] = useState([])

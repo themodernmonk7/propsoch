@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 import { PropertyTypes } from "@/types"
 import { FaHeart, FaStar } from "react-icons/fa"
