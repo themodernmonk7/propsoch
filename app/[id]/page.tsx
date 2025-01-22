@@ -7,7 +7,8 @@ import {
   PropertyHeader,
   PropertyImage,
   PropertyLocation,
-} from "@/components/property"
+} from "@/components/Property"
+import { notFound } from "next/navigation"
 
 type Props = {
   params: Promise<{ id: string }>
@@ -53,7 +54,7 @@ async function fetchPropertyData(id: string) {
   )
 
   if (!property) {
-    throw new Error("Property not found")
+    notFound()
   }
 
   return property

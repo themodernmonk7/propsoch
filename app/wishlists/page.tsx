@@ -1,6 +1,6 @@
 "use client"
 
-import PropertyCard from "@/components/property/PropertyCard"
+import PropertyCard from "@/components/Property/PropertyCard/PropertyCard"
 import { PropertyTypes } from "@/types"
 import Link from "next/link"
 import { useEffect, useState } from "react"

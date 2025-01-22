@@ -1,6 +1,6 @@
-import { convertToCr } from "@/app/lib/utils"
 import { MdLocationOn } from "react-icons/md"
 import styles from "./PropertyHeader.module.css"
+import { convertToCr } from "@/lib/utils"
 
 interface Property {
   title: string

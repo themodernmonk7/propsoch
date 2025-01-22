@@ -1,5 +1,5 @@
 import { CiLocationOn } from "react-icons/ci"
-import Mapbox from "../mapbox/Mapbox"
+import Mapbox from "../../Mapbox/Mapbox"
 
 const PropertyLocation = () => {
   return (

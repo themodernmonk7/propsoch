@@ -17,6 +17,7 @@ const PropertyImage = ({ property }: { property: Property }) => {
         alt={property.title}
         className={styles.image}
         style={{ objectFit: "cover" }}
+        priority={true}
       />
       <div className={styles.labelContainer}>
         <span

@@ -1,13 +1,13 @@
 "use client"
 
-import PropertyCard from "@/components/property/PropertyCard"
+import PropertyCard from "@/components/Property/PropertyCard/PropertyCard"
 import { ITEMS_PER_PAGE, LOAD_DELAY } from "@/constants/constants"
 import { useFetch } from "@/hooks/useFetch"
 import { PropertyTypes, Status } from "@/types"
 import { useCallback, useEffect, useState } from "react"
-import { throttleFunction } from "./lib/utils"
-import Loader from "@/components/Skeleton/Loader"
 import styles from "./page.module.css"
+import { throttleFunction } from "@/lib/utils"
+import Loader from "@/components/Skeleton/Loader"
 
 export default function Home() {
   const { properties, status } = useFetch()

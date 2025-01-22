@@ -1,8 +1,8 @@
-import NearbyFacilities from "./NearbyFacilities"
-import PropertyAmenities from "./PropertyAmenities"
-import PropertyHeader from "./PropertyHeader"
-import PropertyImage from "./PropertyImage"
-import PropertyLocation from "./PropertyLocation"
+import NearbyFacilities from "./NearByFacilities/NearbyFacilities"
+import PropertyAmenities from "./PropertyAmenities/PropertyAmenities"
+import PropertyHeader from "./PropertyHeader/PropertyHeader"
+import PropertyImage from "./PropertyImage/PropertyImage"
+import PropertyLocation from "./PropertyLocation/PropertyLocation"
 
 export {
   NearbyFacilities,
